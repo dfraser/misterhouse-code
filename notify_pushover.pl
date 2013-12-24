@@ -34,18 +34,17 @@ sub notify_pushover {
         }
 	
         print_log("Sending notification to Pushover") if $Debug{pushover};
-        # Doesnt support authentication (Yet)
 		
-		my $url = "https://api.pushover.net/1/messages.json";
-		
-		my $ua = LWP::UserAgent->new();  
-		my $req = POST $url, [ 
-		 token => $config_parms{pushover_app_token},
-		 user => $config_parms{pushover_user_key},
-		 message => $text,
-		 title => $title,
-		 priority => $priority,
-		]; 
-		my $content = $ua->request($req)->as_string; 
+	my $url = "https://api.pushover.net/1/messages.json";
+	
+	my $ua = LWP::UserAgent->new();  
+	my $req = POST $url, [ 
+	 token => $config_parms{pushover_app_token},
+	 user => $config_parms{pushover_user_key},
+	 message => $text,
+	 title => $title,
+	 priority => $priority,
+	]; 
+	my $content = $ua->request($req)->as_string; 
 
 }
