@@ -44,6 +44,8 @@ sub notify_pushover {
 	 message => $text,
 	 title => $title,
 	 priority => $priority,
+	 expire	=> 3600,
+	 retry => 300,
 	]; 
 	my $content = $ua->request($req)->as_string; 
 
