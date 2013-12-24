@@ -1,0 +1,21 @@
+Format = A
+# -*- mode: perl-mode; -*-
+#
+# See mh/lib/read_table_A.pl  for definition of Format=A items
+#
+ 
+# My Insteon PLM Interface
+INSTEON_PLM,   PLM 
+
+INSTEON_LAMPLINC,	21.8A.E6,	bedside_r, All_Lights
+INSTEON_LAMPLINC,    26.71.3A,    living_rm_lamp,    All_Lights # 2457D2 v3.2 2813
+INSTEON_SWITCHLINC,  1F.C7.CC,	  front_dr_ceiling, All_Lights
+INSTEON_SWITCHLINC,  1F.C9.2D,    kitchen_ceiling, All_Lights
+INSTEON_SWITCHLINC,  16.9C.39,	  dining_rm_ceiling, All_Lights
+INSTEON_SWITCHLINC,  21.13.57,	  hall_ceiling, All_Lights
+INSTEON_SWITCHLINCRELAY,  23.EF.16,    kitchen_fan, All_Fans
+#INSTEON_SWITCHLINCRELAY,    0B.B8.56,    f_kt_ov_lt_ma,    Kitchen  #2476s  v2.5 05190 0739 Cir 16
+
+INSTEON_MOTIONSENSOR,  25.9F.D5,	  front_dr_motion
+INSTEON_MOTIONSENSOR,  25.AB.CD,          kitchen_leak
+
