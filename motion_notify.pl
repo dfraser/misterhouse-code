@@ -4,7 +4,7 @@ if ($front_dr_motion->state_now() eq ON) {
 	print_log("motion detected");
 	if ($motion_timer->inactive()) {
 		print_log("sending motion notification");
-		$motion_timer->set(600);
+		$motion_timer->set(3600);
 		notify_pushover("Motion","Motion Detected at Front Door");
 	} else {
 		print_log("motion notification prevented by timer");
