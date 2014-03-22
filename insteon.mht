@@ -15,6 +15,7 @@ INSTEON_SWITCHLINC,  16.9C.39,	  dining_rm_ceiling, All_Lights
 INSTEON_SWITCHLINC,  21.13.57,	  hall_ceiling, All_Lights
 INSTEON_SWITCHLINCRELAY,  23.EF.16,    kitchen_fan, All_Fans
 #INSTEON_SWITCHLINCRELAY,    0B.B8.56,    f_kt_ov_lt_ma,    Kitchen  #2476s  v2.5 05190 0739 Cir 16
+INSTEON_SWITCHLINCRELAY,  24.CE.80,	bathroom_fan, All_Fans
 
 INSTEON_MOTIONSENSOR,  25.AB.CD:1,	    kitchen_leak_dry
 INSTEON_MOTIONSENSOR,  25.AB.CD:2,          kitchen_leak_wet
