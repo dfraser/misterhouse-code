@@ -2,7 +2,7 @@ if (time_now("$Time_Sunset - 1:30")) {
 	$dining_rm_ceiling->set("50%");
 	$kitchen_ceiling->set("75%");
 	$front_dr_ceiling->set(ON);
-	$living_rm_lamp->set(ON);
+	$living_rm_lamp->set("50%");
 	$bedside_r->set(ON);
 }
 
