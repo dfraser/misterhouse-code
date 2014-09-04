@@ -1,4 +1,4 @@
-if (time_now("7:10") and $Weekday) {
+if (time_now("6:10") and $Weekday) {
 	$dining_rm_ceiling->set(ON);
 	$kitchen_ceiling->set(ON);
 	$front_dr_ceiling->set(ON);
