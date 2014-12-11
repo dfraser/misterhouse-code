@@ -21,3 +21,4 @@ INSTEON_MOTIONSENSOR,  25.AB.CD:1,	    kitchen_leak_dry
 INSTEON_MOTIONSENSOR,  25.AB.CD:2,          kitchen_leak_wet
 INSTEON_MOTIONSENSOR,  25.AB.CD:4,	    kitchen_leak_heartbeat
 INSTEON_MOTIONSENSOR,  25.9F.D5,	  front_dr_motion
+INSTEON_TRIGGERLINC, 23.3D.E7,		front_dr_sensor
